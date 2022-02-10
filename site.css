@@ -177,3 +177,12 @@ a#item:hover{
   from {background-color: #255C6B ; }
   to {background-color: #E36414 font-weight:900 ; }
 }
+
+@media (max-width: 600px) {
+	body {
+		font-size: 8px;
+		background-color: green;
+	}
+  .container_img{left: -33px;}
+  a#item{padding: 3.700000000000003px 179px;}
+}
