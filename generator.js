@@ -7,7 +7,7 @@ const dateInput = document.getElementById('date');
 
 
 const image = new Image();
-image.src = 'C:\\Users\\zakaria\\Desktop\\generator\\ticket1.png';
+image.src = 'ticket1.png';
 image.onload = function () {
 	drawImage()
 }
