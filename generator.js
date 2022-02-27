@@ -7,7 +7,7 @@ const dateInput = document.getElementById('date');
 
 
 const image = new Image();
-image.src = 'ticket1.png';
+image.src = 'Ticket1.png';
 image.onload = function () {
 	drawImage()
 }
@@ -25,7 +25,7 @@ function drawImage() {
 
 downloadBtn.addEventListener('click', ()=> {
 	const image = canvas.toDataURL("image/png");  // here is the most important part because if you dont replace you will get a DOM 18 exception.
-	//window.location.href=image; 
+	window.location.href=image; 
 });
 
 
